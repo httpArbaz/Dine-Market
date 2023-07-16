@@ -1,0 +1,147 @@
+.features-section {
+  margin-top: 3rem;
+}
+
+.features-section .title {
+  justify-content: center;
+}
+
+.features-section .title h1 {
+  width: 100%;
+}
+
+.features-section .content,
+.features-section .title {
+  padding: 2rem 4rem;
+}
+.features-section .content {
+  grid-template-columns: 1fr;
+  grid-gap: 4rem;
+}
+
+.features-section .content .left {
+  grid-gap: 2rem;
+}
+
+.features-section .content .left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.features-section .content .left .feature-background {
+  font-size: 6rem;
+}
+.features-section .content .left div {
+  width: 100%;
+}
+
+.features-section .content .left div {
+  width: 70%;
+  z-index: 2;
+}
+.features-section .content .left .feature-background {
+  font-weight: 800;
+  font-size: 6.875rem;
+  line-height: 110px;
+  position: absolute;
+  color: #212121;
+  opacity: 0.07;
+  z-index: 1;
+}
+
+.features-section .title h1 {
+  font-weight: 700;
+  font-size: 2.75rem;
+  line-height: 55px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  width: 45%;
+}
+
+.features-section .title {
+  display: flex;
+  justify-content: end;
+  padding: 9rem;
+}
+
+.features-section .content .left div {
+  width: 100%;
+}
+
+.features-section .content .left p {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  color: #212121;
+}
+
+.features-section .content .left h3 {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 1rem;
+}
+
+/* RIGHT? */
+.features-section {
+  margin-left: 25px;
+}
+
+.features-section .content .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.features-section .content .right img {
+  width: 300px;
+  height: 300px;
+  margin-top: 24px;
+}
+
+img {
+  overflow: clip;
+}
+
+.features-section .content .right div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.features-section .content .right p {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 26px;
+  /* margin-right: 190px; */
+  text-align: justify;
+  color: #212121;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.features-section .content .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.features-section .content {
+  grid-template-columns: 1fr;
+  grid-gap: 4rem;
+}
+
+.features-section .content,
+.features-section .title {
+  padding: 2rem 4rem;
+}
